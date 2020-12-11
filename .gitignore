@@ -1,0 +1,9 @@
+/node_modules
+/public/audio
+/public/video
+
+.vscode
+
+*.log
+*.mp3
+*.mp4

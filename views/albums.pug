@@ -1,0 +1,16 @@
+extends template
+
+block content
+
+    div
+        hr
+        h1 Album: #{item.album}
+        audio(controls)
+            source(src=item.audio, type="audio/mp3")
+        hr
+        img(src=item.url, alt="")
+        h2 Artist: #{item.artist}
+        p Description: #{item.description}
+        video(controls)
+            source(src=item.video, type="video/mp4")
+        

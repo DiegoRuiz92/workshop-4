@@ -1,0 +1,23 @@
+.img-title {
+    width: 30%;
+    margin: 0.5em
+}
+
+/* section {
+    display: grid;
+    grid-template: auto / repeat(3,30%);
+} */
+
+article {
+    /*border: 1px solid gray;
+    margin: 1em;
+    padding: 0.5em;*/
+    text-align: center;
+}
+
+/*
+main {
+    display: flex;
+    flex-direction: row;
+}
+*/
