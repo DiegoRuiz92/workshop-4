@@ -4,7 +4,7 @@ block content
 
     div(class="row")
         div(class="col-6")
-            video(controls)
+            video(controls, poster=item.url)
                 source(src=item.video, type="video/mp4")
         div(class="col-6")
             h2 Album: 
@@ -16,4 +16,4 @@ block content
             h2 Audio:
             audio(controls)
                 source(src=item.audio, type="audio/mp3")
-            img(src=item.url, alt="")
+            //-img(src=item.url, alt="")
